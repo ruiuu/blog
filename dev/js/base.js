@@ -86,7 +86,7 @@ var General = {
         }
         if ($('body').hasClass('post-template')) {
             General.updateImageWidth();
-            General.rewardLoader();
+            //General.rewardLoader();
         }
 
         General.webFontLoader();
@@ -691,11 +691,11 @@ $(document).ready(function() {
         }
     });
 
-    General.init();
+    General.init(); 
     ImageSmartLoader.init();
     if ($('body').hasClass('post-template')) {
         General.addIcons();
-        General.commentLoader();
+        //General.commentLoader();
 
     }
 
